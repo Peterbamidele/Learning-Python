@@ -1,0 +1,66 @@
+Python Comparison operator
+
+A Comparison operator compares its operands and returns a Boolean value
+based on whether the comparison is True or False.
+
+It can be used to compare strings, number,Boolean and other objects.
+
+In Python there are 6 comparison operators:
+Operator        Description
+==              Equality
+!=              inequality
+>               Greater than
+<               Less than
+>=              Greater than or equal to
+<=              Less than or Equal
+
+
+====Equality
+The equality operators (==) compare two values and return True if the operands
+are equal, otherwise return False.
+Print(5 == 5)
+
+x = 5
+x == 5
+print(x)
+
+x = "Python" == Python
+print(x)
+
+
+====Inequality
+The inequality operator (!=) compare two values and returns True if the operands are Not equal, otherwise returns True if The operands are not equal, otherwise return False.
+print(10 != 5)
+---assign your comparison to a variable
+x = 10 != 5
+print (x)
+----Use operator to compare a strings
+x = "python" != "javascript"
+print(X)
+
+===Grater Than
+The greater than operator (>) returns True if the left operand is grater than the right operand,
+otherwise return False.
+
+print(8 > 4)
+print(5 > 10)
+
+===Less than
+The less than operator (<) return True if the left operand is less than the right operand
+otherwise return False
+print(10 < 15)
+print(20 < 10)
+
+===Greater than or equal to
+The greater than or equal to operator(>=) returns True if the left operand is greater than or equal to the right
+operand,otherwise returns False.
+print(10 >= 15)
+print(20 >= 10)
+print(5 >= 5)
+
+===Less than or equal to
+The less than or equal to operator(>=) returns True if the left operands is less than or equal
+ to right operand on otherwise False.
+ print(10 <= 15)
+ print(20 <= 10)
+ print(10 <= 10)

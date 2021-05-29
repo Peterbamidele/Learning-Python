@@ -1,0 +1,30 @@
+Python Membership Operators
+
+Membership operator are used to check id=f a sequence is present
+in an Object like Strings,lists etc
+
+There 2 membership Operators
+Operator        Name
+In              The in Operator
+Not in          The not in Operator
+
+
+=====The in Operator====
+The in operator return True if a sequence or value is present in an object.
+
+txt = "love python programming"
+print("love" in txt) ---it true because the world is present in the object
+
+txt = "love python programming"
+print("Hello" in txt)
+ ---it False because the world is present in the object
+
+fruits = ["bananas","apples","grape", carrot]
+print("lemons" in fruits)
+print("orange" in fruits)
+
+===The not in Operator==
+Not in operator returns True if a sequence or value is not present in an object.
+
+txt = "i love fruits"
+print("vegetable" not in txt)

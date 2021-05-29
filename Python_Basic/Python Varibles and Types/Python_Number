@@ -1,0 +1,56 @@
+Python Number
+in python there types of numbers:
+--Integer - int
+--Floating Point -float
+--Complex - complex
+
+Integer
+An integer is a number without decimals
+a = 3
+b = 4
+c = 5
+
+Floating Point
+A floating point is number or a number with decimals
+a = 4.0
+b = 45.1
+c = 50.45
+
+
+Complex
+A complex number is an imaginary number.
+To yield a complex number,simply append a 'j' to numeric value.
+a = 3j
+b = 4.21j
+c = 5.33j
+
+Getting the type of Numerical Values
+--in python you can get specific data type of numbers using the type()function
+
+a = 3
+b = 4
+c = 45.1
+d = 50.45
+e = 4.21j
+f = 5.33j
+
+
+Adding Numbers
+TO add numbers, use the plus sign (+)
+x = 4 + 3
+print(x)
+
+Subtracting Numbers
+TO add numbers, use the plus sign (+)
+x = 4 - 3
+print(x)
+
+Multiplying Numbers
+TO add numbers, use the plus sign (+)
+x = 4 * 3
+print(x)
+
+Dividing Numbers
+TO add numbers, use the plus sign (+)
+x = 4 / 3
+print(x)

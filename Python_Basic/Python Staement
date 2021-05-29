@@ -1,0 +1,24 @@
+Python Statement
+Python statement is commonly used to write value, compute a value , assign a value to a varible,
+call a function.
+
+x = 4
+y = 3
+print(x + y)
+... the first statement assigns number 4 to the x variable
+...The second statement assigns number 3 to the y variable
+...The third statement print the addition of a x and y.
+
+
+Multiple Statement in one line
+you can write multiple statement in a single line of code.
+Simple separate the statement with semicolon(;)
+ x = 4; x=3; print(x + y)
+
+One Statement in  Mutiple Lines
+there cases where you write a single statement in multiple lines.q
+
+fruits = ["orange","mango","banana",]
+print(fruits)
+
+

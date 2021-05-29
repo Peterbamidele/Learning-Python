@@ -1,0 +1,18 @@
+Python is a programming lanquage, one of the most popular programming languages.
+It was created by Guido Van Rossum and it was first implemented in 1989.
+Python is uses for
+1. Web Development
+2. Machine Learning
+3. Data Science
+4. Scripting
+Python3 is the current version of Python
+you code Python using pycharm or online interpreter
+Python interpreter(Compiler)
+
+A python interpreter is a program that executes python codes.
+Python Console(Shell)
+Python console also know  as shell, allow to execute python codes line by line
+Python Files
+
+Python files aee saved with .py file extension.
+.. texteditor(Notepad) to create python files, it should be save with .py

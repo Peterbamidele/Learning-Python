@@ -1,0 +1,14 @@
+Python Comment
+Comment in python are commonly used to clarify or explain codes.
+Comment are not interpreted by Python.
+Meaning comment will not be executed.
+
+Single Line Comment
+A single line comment starts with the hash character #.
+# this is a single line comment
+
+Multiple lines of Comments
+To write comment in multiple line, simple use multiple single line comments
+# comment here
+# comment here
+# comment here

@@ -1,0 +1,25 @@
+Python Syntax
+when coding in python ,there are syntax to follow.
+Syntax is the set of rules followed when writing python programs language
+
+Python indentation
+indentation in python is very important
+
+...in other language like java, javaScripts and C, indentation are only for
+readability purpose and compilers don't care about indentations.
+
+in Python ...indentation indicates a block of statements.
+Tabs or leading  are used to compute the indentation level of a line.
+
+if 5 > 4:
+    x = "Hello World!"
+    print(x)
+
+Indentation Error
+a block of statements need to have the same indentation level
+
+if 6 > 3:
+x = "Hello World"
+    print(x)
+... will produce an error, because the third line those not have the
+same indentation as the second one

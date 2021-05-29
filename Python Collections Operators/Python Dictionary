@@ -1,0 +1,51 @@
+Python Dictionary
+A dictionary is an unordered and mutable collection of items.
+A dictionary is written with curly brackets.
+Each item in a dictionary contains a key/value pair.
+
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+print(person)
+=== In the above example 5 items
+First item has a key name of "first_name" and its value is "john".
+Second item has a key name of "last_name" and its value is 'bread Winner".
+Third item has a key name of "gender" and its value is "male". etc
+
+=====Accessing Items ======
+To have access to an item in a dictionary, specify the key name of an item
+inside square brackets.
+
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+x = person["first_name"]
+y = person["last_name"]
+z = person["gender"]
+a = person["state"]
+b = person["age"]
+print("First Name",x)
+print("Last Name",y)
+print("Gender",z)
+print("State",a)
+print("Age",b)
+
+==Trying to access an item using a key name that does not exit, an occur will display.
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+print(person["Occupation"])
+
+==get()method to access an item====

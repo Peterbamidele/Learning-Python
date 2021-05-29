@@ -1,0 +1,19 @@
+To Display an output in Python, use the print() function
+Printing Text
+The print() function can be used to print a string (text).
+print("Python is Cool")
+ Python is Cool will be printed
+
+ Printing Number
+ The print() function can be used to print Number.
+ print(21)
+ 21 will be printed
+ it can be used to print to add function
+ print (1 + 445)
+
+Print Object
+The print() function can be use to print two objects.
+print("Hello", "World")
+
+
+

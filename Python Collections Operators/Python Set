@@ -1,0 +1,104 @@
+Python Set
+
+A set is container (also called collection) that is unordered and immutable.
+
+Creating a Set
+
+A set is created by using curly brackets {}.
+
+The objects are place inside those brackets and are separated by commas(,).
+
+cars = {"volve","benze","toyota","honda"}
+print(cars)
+
+A set can contain mixed data types, but can not contain mutable items like lists,sets and dictionaries.
+ x = {"peter", 23 , True}
+ print(x)
+=================
+
+==Accessing Items
+Unlike lists and tuples, you can Not access the items of a set using indexes.
+
+It is because a set is unordered and not indexed
+However,We can use the for loop to access all its items one-by-one.
+
+cars = {"volve", "benze", "toyota", "honda"}
+for car in cars:
+print (cars)
+
+==Adding item to Set
+To add item to set, use the add() or update() method.
+
+The add() method adds one item to a set.
+cars = {"volve", "benze", "toyota", "honda"}
+cars.add("Range")
+print(cars)
+=================
+
+
+
+===Changing an Item in Set===
+The item of a set can Not be changed because a set is immutable or unchangeable.
+
+=Removing an item=
+To remove an item from a set,use the remove() method.
+you have to specify the value of the item you want to remove.
+cars = {"volve", "benze", "toyota", "honda"}
+cars.add("benze")
+print(cars)
+
+==Discard method=
+cars = {"volve", "benze", "toyota", "honda"}
+cars.discard("benze")
+print(cars)
+
+
+==The difference between the remove() and discard()==
+discard() method is does not raise an error if the specified item is not present.
+
+pop() method remove an item.But it cannot determine which item will be removed because a set is unordered.
+cars = {"volve", "benze", "toyota", "honda"}
+cars.pop("benze")
+print(cars)
+
+
+===Getting the Lenght of A set====
+To get the length or the number of item in a set, use the len() method.
+cars = {"volve", "benze", "toyota", "honda"}
+print(len(cars))
+
+
+===Checking if an item Exists===
+To check if an item exists in a set, use the in operator.
+cars = {"volve", "benze", "toyota", "honda"}
+"toyata" in cars
+print(cars)
+It return True if the item is found,
+
+=====Combine Two Sets====
+To combine two sets,Update() method is use.
+x = {1,2,3,4,5}
+y= {6,7,8}
+x.update(y)
+print(x)
+
+========Difference of Two Sets======
+To get the difference between two sets, use the subtraction operator(-).
+x = {1,2,3,4}
+y = {3,4,5,6}
+print("x-y:",x-y)
+print("y-x:",y-x)
+
+===Another Way to Create a Set=====
+The way we create our seat above is called literal.
+Another way to create a set is to use that set() constructor.
+cars = (("volve", "benze", "toyota", "honda"))
+print(cars)
+
+==========List of method that can be perform with set=========
+1.Access iterm with loops using "FOR"
+2.Adding to set Using "add()"
+3.Changing using "remove(),discard(),pop()"
+4.Getting Length of a set Using "len"
+5.Combining Two Sets using "update()"
+6.Difference of Two sets using "(-)"

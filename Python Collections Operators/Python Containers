@@ -1,0 +1,18 @@
+ Python Containers
+
+Containers are objects that contain objects
+
+What is an Object
+in python, everythng is an Object.
+
+strings and numbers are considered as objects.
+
+x = "My favorite number is"
+y = 21
+print(x,y)
+
+==Containers
+Container(also called collections) are objects that contain objects.
+
+fruits = ["bananas", "apples","grape"]
+print(fruits)

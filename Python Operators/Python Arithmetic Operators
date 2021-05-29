@@ -1,0 +1,74 @@
+Python Arithmetic Operator
+Arithmetic Operators perform mathematical operation on its numerical operands.
+
+Python has 7 basic Python Arithmetic Operators
++ addition
+- subtraction
+* multiplication
+/ division
+** exponentiation
+% reminder
+// floor division
+
+=====Addition Operators
+Addition operators(+)returns the sum of its numerical operands.
+x = 10
+y = 5
+print(x + y)
+
+-- It can also be used to concatenate or join strings together.
+X = "Hello" + "World"
+
+=====Subtraction Operators
+Subtraction operator(-) returns the difference of its numerical operands.
+x = 10
+y = 5
+print(x - y)
+
+
+=====Multiplication Operator
+Multiplication operator(*) returns the product of its numerical operands.
+x = 10
+y = 5
+print(x * y)
+
+
+=====Division Operator
+Division Operator (/) return the quotient of its numerical operands
+--Note
+the quotient will always be a floating point number.
+x = 10
+y = 5
+print(x / y)
+
+===Exponentiation Operators
+exponentiation operator(**) raise the left operands to the power of the right operands
+x = 2 ** 3
+
+
+====Reminder Operator
+Reminder Operator(%), also known as the modules operator returns the remainder after
+dividing the left operands by the right operands.
+X = 5 % 2
+print(X)
+--- 5 is divide by 2 therefore the quotient is 2  and the remainder is 1.
+
+====Floor Division Operator
+Floor division operator (//) rounds down the quotient of the numerical operands to
+the nearest whole number.
+X = 5//2
+print (x)
+...the quotient is 2.5.
+The result of rounding down 2.5 is 2
+
+====Operator Sequence
+Operator sequence describer the order of performed operations in an arithmetic expression.
+x = 10 + 3 * 5 = 25
+-- Python  follow  the Bodmas pattern in mathematics, Where multiplication and division are done before addition and subtraction.
+-Multiplication is first, Division is second,addition is third, and subtraction is last
+--- increase we need  a certain operation to be performed first.
+---Note
+--What if we want addition to be performed first in our prevoius example
+---Grouping are used to do that, Grouped expression are performed first before the others.
+Use parentheses () to group expressions.
+== (10 + 3) * 5

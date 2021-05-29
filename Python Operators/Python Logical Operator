@@ -1,0 +1,52 @@
+Python Logical Operator
+
+Logical Operator are commonly used with Booleans.
+
+In python, there are 3 logical operators:
+Operator        Description
+amd             logical and
+or              logical or
+not             logical not
+
+
+===Logical and
+The logical and operator returns True if both operands are True.
+
+print(True and True)
+print(True and False)
+print(False and False)
+
+---Logical operator are commonly used on expression.
+--the expression return True because both operands are True
+
+Var = (5==5) and (4 == 4)
+print(Var)
+
+x=4
+Var = ( x > 5) and (8 < x)
+print(Var)
+
+===Logical Or
+The logical Or operator returns True if either or the operand is True
+print(True and True)
+print(True and False)
+print(False and False)
+
+---Logical operator are commonly used on expression.
+--the expression return True because one of operands is True
+exp = (5 == 5 )0r (7 == 6)
+print(exp)
+
+===Logical not
+The logical not operator returns True if the operands is False.
+print(not(False))
+
+---Logical operator are commonly used on expression.
+--the expression return True because the operands is False.
+exprr = not(10 > 20)
+print(exprr)
+
+--the expression return False because the operands is True.
+varr = not(10 == 10)
+print(varr)
+

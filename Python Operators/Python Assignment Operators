@@ -1,0 +1,77 @@
+Python Assignment Operators
+
+in python assignment operator are used to assign values to variables.
+
+List of python assignment Operators:
+
+Operator        Example         Same As
+=               x = 5            x = 5
++=              x += 5           x = x + 5
+-=              x -= 5           x = x - 5
+*=              x *= 5           x = x * 5
+/=              x /= 5           x = x / 5
+**=             x **= 5          x = x ** 5
+%=              x %= 5           x = x % 5
+//=             x //= 5          x = x // 5
+
+
+===Assignment
+The assignment operator assign a value to a variable.
+
+x = "Hello World"
+print(x)
+
+
+===Addition Assignment
+The addition assignment operators (+= adds the left and right operands
+and assigns the sum to he left operand(Variable)
+x  = 4
+x += 3
+print(x)
+
+-- It  can also concatenate strings using this Operator
+
+===Subtraction Assignment
+-The subtraction assignment operator(-=) deducts the right operands from left operand and
+assign the difference to the left operand (the variable).
+
+x = 4
+x -= 3
+print(x)
+
+===Multiplication Assignment
+The multiplication assignment operator(*=) Multiples the left operand and right operand and assigns the product to th left operand(the variable)
+x = 4
+x *=3
+print(x)
+
+===Division Assignment
+The division assignment operator(/=) divides the left operands by the right operand and assigns
+the quotient to the left operand(the variable).
+
+----Note the quotient is always a floating point number.
+x = 6
+x /= 2
+print(x)
+
+===Exponentiation Assignment
+The exponentiation assignment operator(**=) raise the left operand to the power of the right operand and assigns the
+ result to the left operand
+  x =2
+  x **= 3
+  print (x)
+
+=== Remainder Assignment
+The remainder assignment operator(%=) known as modulus operator assigns the reminder to the
+variable after dividing the left operand by the right operand.
+
+x = 5
+x %= 2
+print(x)
+
+===Floor Division Assignment
+The floor division assignment operator (//=) rounds down the quotient of tis numerical operands to the nearest
+whole number, then assigns it to the left operand.
+x = 5
+x //= 2
+print(x)
