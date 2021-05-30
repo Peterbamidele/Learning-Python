@@ -1,4 +1,4 @@
-## Python Collections Operators
+## Python Collections
 
 # Addition Assignment
 x = 4

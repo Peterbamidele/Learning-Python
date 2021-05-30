@@ -1,0 +1,189 @@
+Python Dictionary
+A dictionary is an unordered and mutable collection of items.
+A dictionary is written with curly brackets.
+Each item in a dictionary contains a key/value pair.
+
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+print(person)
+=== In the above example 5 items
+First item has a key name of "first_name" and its value is "john".
+Second item has a key name of "last_name" and its value is 'bread Winner".
+Third item has a key name of "gender" and its value is "male". etc
+
+=====Accessing Items ======
+To have access to an item in a dictionary, specify the key name of an item
+inside square brackets.
+
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+x = person["first_name"]
+y = person["last_name"]
+z = person["gender"]
+a = person["state"]
+b = person["age"]
+print("First Name",x)
+print("Last Name",y)
+print("Gender",z)
+print("State",a)
+print("Age",b)
+
+==Trying to access an item using a key name that does not exit, an occur will display.
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+print(person["Occupation"])
+
+==Use get()method to access an item====
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+print(person.get("state"))
+
+
+===Trying to access an item using a key name that does not exit,Instead of raising an error
+the get() method will only return None If the specified key is not found.
+
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+print(person.get("Occupation"))
+
+====Adding Items======
+To add new item in dictionary, specify a new index key name inside the square brackets and assign a value
+using the assignment operator.
+
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+person["Occupation"] = "programmer"
+print(person)
+
+====Changing an item,s Value====
+To change an items's value,refers to its key name using square brackets
+ and use the assignment operator.
+
+ person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+person["last_name"] = "Bamidele"
+print(person)
+
+===Removing an Item==
+To remove an item,use the pop()method.
+The pop()method removes an item with the specified key name.
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+person.pop("age")
+print(person)
+
+===del keyword is another way to remove an item
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+del person["state"]
+print(person)
+
+
+====Getting the length of a Dictionary====
+To get the length or the number of items in a dictionary,Len() method is use.
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+print(len(person))
+
+
+=====Checking if a Key Exists=====
+To check if a key exist in a dictionary,the "in" operator with the "if" statement.
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+if "age" in person:
+if "state" in person:
+print('the "age" and "state"key exits')
+
+
+======Looping Through a Dictionary=========
+person = {
+    "first_name": "peter",
+    "last_name": "bread Winner",
+    "gender": "male",
+    "state": "ogun",
+    "age": 30
+}
+for item in person :
+print(person)
+
+=======Nesting Dictionary=======
+A dictionary can contain another dictionary.
+ employees = {
+    "manager:"{
+        "name": "Ruth",
+        "age": 40
+},
+"Programmer":{
+    "name":"peter",
+    "age":35,
+}}
+print(employees[manager"]["name])
+
+========Accessing item in Nesting Dictionary====
+A dictionary can contain another dictionary.
+ employees = {
+    "manager:"{
+        "name": "Ruth",
+        "age": 40
+},
+"Programmer":{
+    "name":"peter",
+    "age":35,
+}
+}print(employees[manager"]["name])
+print(employees[Programmer]["name])
